@@ -15,6 +15,7 @@ basic.forever(function () {
             music.playTone(988, music.beat(BeatFraction.Whole))
             music.playTone(523, music.beat(BeatFraction.Whole))
         }
+    } else {
         basic.showIcon(IconNames.Happy)
     }
 })
